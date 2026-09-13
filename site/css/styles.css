@@ -3,14 +3,14 @@
    ============================================ */
 
 :root {
-  --navy: #223642;
-  --navy-dark: #172630;
-  --blue: #3f6a86;
-  --blue-light: #a9c6d7;
+  --navy: #1f3d2f;
+  --navy-dark: #142821;
+  --blue: #c1502e;
+  --blue-light: #e8b895;
   --bg: #ffffff;
-  --bg-soft: #f4f7f9;
-  --ink: #1b2a33;
-  --muted: #5b6b74;
+  --bg-soft: #f4f1ea;
+  --ink: #1c2b22;
+  --muted: #6b6357;
   --white: #ffffff;
 
   --font-display: 'Archivo Black', 'Arial Black', sans-serif;
@@ -215,7 +215,7 @@ a {
   white-space: nowrap;
   background: var(--bg-soft);
   padding: 24px 0;
-  border-bottom: 1px solid #e3e9ec;
+  border-bottom: 1px solid #e3ddd0;
 }
 
 .marquee-track {
@@ -291,7 +291,7 @@ a {
 
 .photo-placeholder {
   background: var(--bg-soft);
-  border: 2px dashed #c7d3d8;
+  border: 2px dashed #cdc0a8;
   border-radius: var(--radius);
   display: flex;
   align-items: center;
@@ -351,7 +351,7 @@ a {
   grid-template-columns: 220px 1fr;
   gap: 32px;
   padding: 40px 0;
-  border-bottom: 1px solid #e3e9ec;
+  border-bottom: 1px solid #e3ddd0;
 }
 
 .job:last-child {
@@ -369,7 +369,7 @@ a {
   aspect-ratio: 1;
   max-height: 160px;
   background: var(--bg-soft);
-  border: 2px dashed #c7d3d8;
+  border: 2px dashed #cdc0a8;
   border-radius: 16px;
   display: flex;
   align-items: center;
